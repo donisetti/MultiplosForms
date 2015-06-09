@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    @Html.Partial("_CadastroDeCliente")
+    @Html.Partial("_PesquisarCliente")
+
+    <div id="dvResultado">
+        @Html.Partial("_Clientes",ViewBag.Clientes as IEnumerable<Demo.MultiplosForms.Domain.Cliente>)
+    </div>
+
+</div>

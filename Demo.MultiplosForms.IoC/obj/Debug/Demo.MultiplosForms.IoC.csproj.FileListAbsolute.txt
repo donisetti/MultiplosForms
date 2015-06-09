@@ -1,0 +1,9 @@
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Demo.MultiplosForms.IoC.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Demo.MultiplosForms.IoC.pdb
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Demo.MultiplosForms.Domain.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Ninject.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Demo.MultiplosForms.Domain.pdb
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\bin\Debug\Ninject.xml
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\obj\Debug\Demo.MultiplosForms.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\obj\Debug\Demo.MultiplosForms.IoC.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.IoC\obj\Debug\Demo.MultiplosForms.IoC.pdb

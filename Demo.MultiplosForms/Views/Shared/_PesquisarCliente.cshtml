@@ -1,0 +1,13 @@
+﻿@using (Ajax.BeginForm("Pesquisar", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "dvResultado" }))
+{
+    <div class="row">
+        <div class="col-md-2">
+            <input type="text" name="uiTxtNome" class="form-control" />
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Pesquisar" class="btn btn-primary"> 
+        </div>
+    </div>
+}
+
+<div class="clearfix">&ensp;</div>

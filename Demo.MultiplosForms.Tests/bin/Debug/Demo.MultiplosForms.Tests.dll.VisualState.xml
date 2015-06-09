@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1010]C:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Tests\bin\Debug\Demo.MultiplosForms.Tests.dll</TopNode>
+  <SelectedNode>[0-1008]Demo.MultiplosForms.Tests.Controllers.Quando_for_visualizar_a_Home</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1010]C:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Tests\bin\Debug\Demo.MultiplosForms.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1011]Demo" Expanded="true" />
+    <Node UniqueName="[0-1012]Demo.MultiplosForms" Expanded="true" />
+    <Node UniqueName="[0-1013]Demo.MultiplosForms.Tests" Expanded="true" />
+    <Node UniqueName="[0-1014]Demo.MultiplosForms.Tests.Controllers" Expanded="true" />
+    <Node UniqueName="[0-1006]Demo.MultiplosForms.Tests.Controllers.Quando_for_realizar_uma_requisicao_para_cadastro_de_cliente" Expanded="true" />
+    <Node UniqueName="[0-1008]Demo.MultiplosForms.Tests.Controllers.Quando_for_visualizar_a_Home" Expanded="true" />
+    <Node UniqueName="[0-1001]Demo.MultiplosForms.Tests.Quando_for_cadastrar_um_cliente" Expanded="true" />
+    <Node UniqueName="[0-1003]Demo.MultiplosForms.Tests.Quando_for_pesquisar_por_um_cliente_existente" Expanded="true" />
+  </Nodes>
+</VisualState>

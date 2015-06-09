@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Tests\bin\Debug\Demo.MultiplosForms.Tests.dll" total="5" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-10-01" time="02:10:23">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="NOTE-GUSTAVO" user="Gustavo" user-domain="NOTE-GUSTAVO" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Assembly" name="C:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Tests\bin\Debug\Demo.MultiplosForms.Tests.dll" executed="True" result="Failure" success="False" time="8.102" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Demo" executed="True" result="Failure" success="False" time="8.034" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MultiplosForms" executed="True" result="Failure" success="False" time="8.034" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="8.033" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controllers" executed="True" result="Failure" success="False" time="7.937" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="Dado_uma_HomeController" executed="True" result="Inconclusive" success="False" time="1.649" asserts="0" />
+                      <test-suite type="TestFixture" name="Quando_for_Pesquisar_um_cliente" executed="True" result="Error" success="False" time="2.980" asserts="0">
+                        <failure>
+                          <message><![CDATA[SetUp : System.ArgumentNullException : Valor não pode ser nulo.
+Nome do parâmetro: source]]></message>
+                          <stack-trace><![CDATA[em System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+em Demo.MultiplosForms.Domain.ClienteService.Pesquisar(String nome) na c:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Domain\ClienteService.cs:linha 21
+em Demo.MultiplosForms.Controllers.HomeController.Pesquisar(String uiTxtNome) na c:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms\Controllers\HomeController.cs:linha 42
+em Demo.MultiplosForms.Tests.Controllers.Quando_for_Pesquisar_um_cliente.Because_of() na c:\Users\Gustavo\Documents\Visual Studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Tests\Controllers\HomeControllerTest.cs:linha 126
+em NBehave.Spec.SpecBase.MainSetup()
+em NBehave.Spec.NUnit.SpecBase.MainSetup()
+]]></stack-trace>
+                        </failure>
+                        <results>
+                          <test-case name="Demo.MultiplosForms.Tests.Controllers.Quando_for_Pesquisar_um_cliente.Listar_clientes_encontrados" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                            <failure>
+                              <message><![CDATA[TestFixtureSetUp failed in Quando_for_Pesquisar_um_cliente]]></message>
+                              <stack-trace />
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="Quando_for_realizar_uma_requisicao_para_cadastro_de_cliente" executed="True" result="Success" success="True" time="0.249" asserts="0">
+                        <results>
+                          <test-case name="Demo.MultiplosForms.Tests.Controllers.Quando_for_realizar_uma_requisicao_para_cadastro_de_cliente.Chamar_metodo_de_cadastro_do_ClienteService" executed="True" result="Success" success="True" time="0.095" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="Quando_for_visualizar_a_Home" executed="True" result="Success" success="True" time="2.905" asserts="0">
+                        <results>
+                          <test-case name="Demo.MultiplosForms.Tests.Controllers.Quando_for_visualizar_a_Home.Listar_todos_clientes_cadastrados" executed="True" result="Success" success="True" time="1.090" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Dado_um_cliente" executed="True" result="Inconclusive" success="False" time="0.002" asserts="0" />
+                  <test-suite type="TestFixture" name="Quando_for_cadastrar_um_cliente" executed="True" result="Success" success="True" time="0.034" asserts="0">
+                    <results>
+                      <test-case name="Demo.MultiplosForms.Tests.Quando_for_cadastrar_um_cliente.Adicionar_o_cliente_na_listagem" executed="True" result="Success" success="True" time="0.030" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Quando_for_pesquisar_por_um_cliente_existente" executed="True" result="Success" success="True" time="0.034" asserts="0">
+                    <results>
+                      <test-case name="Demo.MultiplosForms.Tests.Quando_for_pesquisar_por_um_cliente_existente.Retornar_cliente" executed="True" result="Success" success="True" time="0.026" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,4 @@
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Domain\bin\Debug\Demo.MultiplosForms.Domain.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Domain\bin\Debug\Demo.MultiplosForms.Domain.pdb
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Domain\obj\Debug\Demo.MultiplosForms.Domain.dll
+C:\Users\Gustavo\documents\visual studio 2013\Projects\Demo.MultiplosForms\Demo.MultiplosForms.Domain\obj\Debug\Demo.MultiplosForms.Domain.pdb
